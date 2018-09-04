@@ -14,8 +14,11 @@ The code implemented does the following :-
 2)You can create child nodes
 ->Just run the program and type 1 it would create node which would be child node of our previous node 
 3)Encrypt andDecrypt Data
-->This has been implemented in the fuction "insert()
+->This has been implemented in the fuction "insert()"
 ->When the owner types its details (value,name,id) the corresponding values are decrypted and decrypted value is saved
+4)Verification Of Owner
+->The code has not been implemented but following is the logic:
+We parse throughthe node till a node with matching hash is not found if it matches then we check all values ,if they do we tell the user that he is the owner else the message displayed is you are not the owner as no such details are found
 NOTE-REST OF THE STEPS HAVE NOT BEEN IMPLEMENTED DUE TO LACK OF TIME AT THE MOMENT
 B)
 Implementation Logic
